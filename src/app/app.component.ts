@@ -76,6 +76,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   evilTitle = 'Template <script>alert("evil never sleeps")</script>Syntax';
 
   fontSizePx = 16;
+  currentCustomer = "Joe Blow from : app.component.ts ln";
 
   title = 'Template Syntax';
 
